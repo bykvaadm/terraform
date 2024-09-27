@@ -1,0 +1,20 @@
+- hosts: osquery
+  gather_facts: false
+  tasks:
+    - name: install atop
+      apt:
+        name: atop
+        state: present
+    - name: install atop
+      apt:
+        name: atop
+        state: present
+    - name: install atop
+      apt:
+        name: atop
+        state: present
+    - name: install atop
+      apt:
+        name: atop
+        state: present
+
